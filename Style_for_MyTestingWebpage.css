@@ -1,0 +1,63 @@
+body {
+    background: url(WebBackground.jpg)  center center;
+}
+.header {
+    background: url(Wall-E.jpg)  center center;
+    background-size: 35%;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header h1 {
+    position: relative;
+    top: 120px;
+    left: 400px;
+    color:thistle;
+    font-family: "Pacifico", cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    max-width: 1200px;
+    border: 3px solid thistle;
+    font-style: italic;
+}
+
+.nav {
+    width: 100%;
+    text-align: center;
+}
+
+.nav li {
+    color: #000;
+    display: inline-block;
+    height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 10px;
+    position: relative;
+    font-size: 20px;
+    margin: 0 20px;
+    letter-spacing: 0.2em;
+    border: 1px dotted black;
+    border-radius: 15px;
+}
+
+.nav li:hover {
+    background-color: #117bff;
+}
+
+.content li {
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 0 20px;
+}
+
+.content li img {
+    height: 500px;
+    width: auto;
+    border: 3px solid black;
+    border-radius: 15px;
+}
