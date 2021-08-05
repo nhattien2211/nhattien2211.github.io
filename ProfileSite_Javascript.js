@@ -1,0 +1,19 @@
+$('#header').hover(
+    function(){
+        $('#header-introduction').fadeIn();
+    },
+    function(){
+        $('#header-introduction').fadeOut();
+    }
+);
+
+$('#about-me-module').hover(
+    function(){
+        $('#img-1').fadeIn(2000);
+        $('#img-2').fadeIn(2000);
+    },
+    function(){
+        $('#img-1').fadeOut();
+        $('#img-2').fadeOut();
+    }
+);
