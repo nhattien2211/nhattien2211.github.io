@@ -9,11 +9,22 @@ $('#header').hover(
 
 $('#about-me-module').hover(
     function(){
-        $('#img-1').fadeIn(2000);
-        $('#img-2').fadeIn(2000);
+        $('#img-1').fadeIn(800);
+        $('#img-2').fadeIn(800);
     },
     function(){
         $('#img-1').fadeOut();
         $('#img-2').fadeOut();
+    }
+);
+
+$('#skill-module').hover(
+    function(){
+        $('#img-3').slideDown(800);
+        $('#img-4').slideDown(800);
+    },
+    function(){
+        $('#img-3').slideUp();
+        $('#img-4').slideUp();
     }
 );
