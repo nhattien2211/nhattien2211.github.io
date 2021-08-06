@@ -86,7 +86,7 @@
 .content-video { 
     position: relative;
     display:inline-block;
-    left: 0;
+    left: 20px;
 }
 
 .content-video li { 
